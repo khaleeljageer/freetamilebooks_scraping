@@ -43,6 +43,7 @@ for url in urls:
     # epub
     epub = soup.findAll('a')[28]
     epub = epub.get("href")
+    
     # print(epub)
     # category
     category = soup.findAll('a')[35]
